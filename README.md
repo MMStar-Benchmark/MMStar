@@ -1,6 +1,6 @@
 # <img src="resources/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> MMStar
 
-[**🌐 Homepage**](https://mmstar-benchmark.github.io/) | [**🤗 Dataset**]() | [**📖 Paper**]() | [**LeaderBoard**]()
+[**🌐 Homepage**](https://mmstar-benchmark.github.io/) | [**🤗 Dataset**]() | [**📖 Paper**]() | [**🏆 Leaderoard**]()
 
 This repo contains the official evaluation code and dataset for the paper "[Are We on the Right Way for Evaluating Large Vision-Language Models?]()"
 
@@ -18,7 +18,7 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 
 - [ ] Evaluation code for MMStar
 - [ ] Support online Leaderboard
-- [ ] **Curate online test set, MMStar-test** (This involves working with the existing multi-modal benchmarks containing protected test set, feel free to contact us!)
+- [ ] Curate online test set, MMStar-test (This involves working with the existing multi-modal benchmarks containing protected test set, feel free to contact us!)
 
 ## 👀 Introduction
 
@@ -26,7 +26,7 @@ We dig into current evaluation works and identify two primary issues:
 (1) **Visual content is unnecessary for many samples.**
 
 <p align="center">
-  <img src="resources/4_case_in_1.png" :height="200px" width="500px">
+  <img src="resources/4_case_in_1.png" :height="200px" width="700px">
 </p>
 
 (2) **Unintentional data leakage exists in LLM and LVLM training.**
@@ -37,7 +37,7 @@ We dig into current evaluation works and identify two primary issues:
 Both problems lead to misjudgments of actual multi-modal performance gains and potentially misguide the study of LVLM. To this end, **we present MMStar, an elite vision-indispensable multi-modal benchmark comprising 1,500 challenge samples meticulously selected by humans.** After applying the coarse filter process and manual review, we narrow down from a total of 22,401 samples to 11,607 candidate samples and finally select 1,500 high-quality samples to construct our MMStar benchmark.
 
 <p align="center">
-  <img src="resources/data_source.png" :height="200px" width="500px">
+  <img src="resources/data_source.png" :height="200px" width="600px">
 </p>
 
 In MMStar, we display **6 core capabilities** in the inner ring, with **18 detailed axes** presented in the outer ring. The middle ring showcases the number of samples for each detailed dimension. **Each core capability contains a meticulously balanced 250 samples**. We further ensure a relatively even distribution across the 18 detailed axes.
