@@ -1,8 +1,8 @@
 # <img src="resources/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> MMStar
 
-[**🌐 Homepage**](https://mmstar-benchmark.github.io/) | [**🤗 Dataset**]() | [**📖 Paper**]() | [**🏆 Leaderoard**]()
+[**🌐 Homepage**](https://mmstar-benchmark.github.io/) | [**🤗 Dataset**]() | [**📖 Paper**](https://arxiv.org/pdf/2403.20330.pdf) | [**🏆 Leaderoard**]()
 
-This repo contains the official evaluation code and dataset for the paper "[Are We on the Right Way for Evaluating Large Vision-Language Models?]()"
+This repo contains the official evaluation code and dataset for the paper "[Are We on the Right Way for Evaluating Large Vision-Language Models?](https://arxiv.org/pdf/2403.20330.pdf)"
 
 ## 💡 Highlights
 
@@ -12,7 +12,7 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 
 ## 📜 News
 
-**[2024.4.1]** 🚀 We released the [ArXiv paper]().
+**[2024.4.1]** 🚀 We released the [ArXiv paper](https://arxiv.org/pdf/2403.20330.pdf).
 
 ## 👨‍💻 Todo
 
@@ -63,5 +63,12 @@ Coming soon. Please stay tuned!
 
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 ```bibtex
-''
+@misc{chen2024right,
+      title={Are We on the Right Way for Evaluating Large Vision-Language Models?}, 
+      author={Lin Chen and Jinsong Li and Xiaoyi Dong and Pan Zhang and Yuhang Zang and Zehui Chen and Haodong Duan and Jiaqi Wang and Yu Qiao and Dahua Lin and Feng Zhao},
+      year={2024},
+      eprint={2403.20330},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
