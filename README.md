@@ -23,6 +23,7 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 ## 👀 Introduction
 
 We dig into current evaluation works and identify two primary issues:
+
 (1) **Visual content is unnecessary for many samples.**
 
 <p align="center">
