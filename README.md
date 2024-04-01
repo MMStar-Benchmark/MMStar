@@ -63,12 +63,10 @@ Coming soon. Please stay tuned!
 
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 ```bibtex
-@misc{chen2024right,
-      title={Are We on the Right Way for Evaluating Large Vision-Language Models?}, 
-      author={Lin Chen and Jinsong Li and Xiaoyi Dong and Pan Zhang and Yuhang Zang and Zehui Chen and Haodong Duan and Jiaqi Wang and Yu Qiao and Dahua Lin and Feng Zhao},
-      year={2024},
-      eprint={2403.20330},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{chen2024right,
+    title={Are We on the Right Way for Evaluating Large Vision-Language Models?}, 
+    author={Chen, Lin and Li, Jinsong and Dong, Xiaoyi and Zhang, Pan and Zang, Yuhang and Chen, Zehui and Duan, Haodong and Wang, Jiaqi and Qiao, Yu and Lin, Dahua and Zhao, Feng},
+    journal={arXiv preprint arXiv:2403.20330},
+    year={2024}
 }
 ```
