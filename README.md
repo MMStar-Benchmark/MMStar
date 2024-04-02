@@ -12,13 +12,13 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 
 ## 📜 News
 
-**[2024.4.2]** 🚀 [Huggingface Dataset](https://huggingface.co/datasets/Lin-Chen/MMStar) is available!
+**[2024.4.2]** 🚀 [Huggingface Dataset](https://huggingface.co/datasets/Lin-Chen/MMStar) and [evaluation code](https://github.com/MMStar-Benchmark/MMStar/tree/main/eval) are available!
 
 **[2024.4.1]** 🚀 We released the [ArXiv paper](https://arxiv.org/pdf/2403.20330.pdf).
 
 ## 👨‍💻 Todo
 
-- [ ] Evaluation code for MMStar
+- [x] Evaluation code for MMStar
 - [ ] Support online Leaderboard
 - [ ] Curate online test set, MMStar-test (This involves working with the existing multi-modal benchmarks containing protected test set, feel free to contact us!)
 
