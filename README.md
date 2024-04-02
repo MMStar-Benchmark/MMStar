@@ -1,6 +1,6 @@
 # <img src="resources/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> MMStar
 
-[**🌐 Homepage**](https://mmstar-benchmark.github.io/) | [**🤗 Dataset**]() | [**📖 Paper**](https://arxiv.org/pdf/2403.20330.pdf) | [**🏆 Leaderoard**]()
+[**🌐 Homepage**](https://mmstar-benchmark.github.io/) | [**🤗 Dataset**](https://huggingface.co/datasets/Lin-Chen/MMStar) | [**📖 Paper**](https://arxiv.org/pdf/2403.20330.pdf) | [**🏆 Leaderoard**]()
 
 This repo contains the official evaluation code and dataset for the paper "[Are We on the Right Way for Evaluating Large Vision-Language Models?](https://arxiv.org/pdf/2403.20330.pdf)"
 
@@ -12,6 +12,7 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 
 ## 📜 News
 
+**[2024.4.2]** 🚀 [Huggingface Dataset](https://huggingface.co/datasets/Lin-Chen/MMStar) is available!
 **[2024.4.1]** 🚀 We released the [ArXiv paper](https://arxiv.org/pdf/2403.20330.pdf).
 
 ## 👨‍💻 Todo
