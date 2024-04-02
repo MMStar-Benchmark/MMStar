@@ -13,6 +13,7 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 ## 📜 News
 
 **[2024.4.2]** 🚀 [Huggingface Dataset](https://huggingface.co/datasets/Lin-Chen/MMStar) is available!
+
 **[2024.4.1]** 🚀 We released the [ArXiv paper](https://arxiv.org/pdf/2403.20330.pdf).
 
 ## 👨‍💻 Todo
