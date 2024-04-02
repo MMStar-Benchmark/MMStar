@@ -55,7 +55,7 @@ In MMStar, we display **6 core capabilities** in the inner ring, with **18 detai
 
 ## 🤖 Evaluation
 
-Coming soon. Please stay tuned!
+You can evaluate any LLMs and LVLMs on our MMStar following with the [evaluation guidelines](https://github.com/MMStar-Benchmark/MMStar/tree/main/eval).
 
 ## 📧 Contact
 
