@@ -66,10 +66,10 @@ You can evaluate any LLMs and LVLMs on our MMStar following with the [evaluation
 
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 ```bibtex
-@article{chen2024right,
-    title={Are We on the Right Way for Evaluating Large Vision-Language Models?}, 
-    author={Chen, Lin and Li, Jinsong and Dong, Xiaoyi and Zhang, Pan and Zang, Yuhang and Chen, Zehui and Duan, Haodong and Wang, Jiaqi and Qiao, Yu and Lin, Dahua and Zhao, Feng},
-    journal={arXiv preprint arXiv:2403.20330},
-    year={2024}
+@article{chen2024we,
+  title={Are We on the Right Way for Evaluating Large Vision-Language Models?},
+  author={Chen, Lin and Li, Jinsong and Dong, Xiaoyi and Zhang, Pan and Zang, Yuhang and Chen, Zehui and Duan, Haodong and Wang, Jiaqi and Qiao, Yu and Lin, Dahua and others},
+  journal={arXiv preprint arXiv:2403.20330},
+  year={2024}
 }
 ```
