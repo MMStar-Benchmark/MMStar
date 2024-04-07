@@ -19,7 +19,7 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 ## 👨‍💻 Todo
 
 - [x] Evaluation code for MMStar
-- [ ] Support online Leaderboard
+- [x] Support online Leaderboard
 - [ ] Curate online test set, MMStar-test (This involves working with the existing multi-modal benchmarks containing protected test set, feel free to contact us!)
 
 ## 👀 Introduction
