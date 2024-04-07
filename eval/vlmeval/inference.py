@@ -127,41 +127,6 @@ def infer_data(model_name, work_dir, dataset_name, out_file, verbose=False, api_
     return model
 
 
-def prefetch_acc(result_file):
-    data = load(result_file)
-    from vlmeval.evaluate.multiple_choice import build_choices, can_infer
-    tot = defaultdict(lambda: 0)
-    match = defaultdict(lambda: 0)
-    hit = defaultdict(lambda: 0)
-    lt = len(data)
-    for i in range(lt):
-        item = data.iloc[i]
-        cate = item['category']
-        tot['Overall'] += 1
-        tot[cate] += 1
-        choices = build_choices(item)
-        matched = can_infer(item['prediction'], choices)
-        if matched:
-            match['Overall'] += 1
-            match[cate] += 1
-            if matched == item['answer']:
-                hit['Overall'] += 1
-                hit[cate] += 1
-    res = defaultdict(list)
-    for k in tot.keys():
-        res['Category'].append(k)
-        res['tot'].append(tot[k])
-        res['match'].append(match[k])
-        res['hit'].append(hit[k])
-        res['match_rate'].append(match[k] / tot[k] * 100)
-        if match[k] == 0:
-            res['acc'].append(0)
-        else:
-            res['acc'].append(hit[k] / tot[k] * 100)
-    res = pd.DataFrame(res)
-    return res
-
-
 def infer_data_job(model, work_dir, model_name, dataset_name, verbose=False, api_nproc=4, ignore_failed=False, **kwargs):
     result_file = osp.join(work_dir, f'{model_name}_{dataset_name}.xlsx')
     rank, world_size = get_rank_and_world_size()

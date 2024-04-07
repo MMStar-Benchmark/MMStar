@@ -1,6 +1,6 @@
 # <img src="resources/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> MMStar
 
-[**🌐 Homepage**](https://mmstar-benchmark.github.io/) | [**🤗 Dataset**](https://huggingface.co/datasets/Lin-Chen/MMStar) | [**📖 Paper**](https://arxiv.org/pdf/2403.20330.pdf) | [**🏆 Leaderoard**]()
+[**🌐 Homepage**](https://mmstar-benchmark.github.io/) | [**🤗 Dataset**](https://huggingface.co/datasets/Lin-Chen/MMStar) | [**📖 Paper**](https://arxiv.org/pdf/2403.20330.pdf) | [**🏆 Leaderoard**](https://mmstar-benchmark.github.io/#Leaderboard)
 
 This repo contains the official evaluation code and dataset for the paper "[Are We on the Right Way for Evaluating Large Vision-Language Models?](https://arxiv.org/pdf/2403.20330.pdf)"
 
@@ -49,13 +49,15 @@ In MMStar, we display **6 core capabilities** in the inner ring, with **18 detai
   <img src="resources/mmstar.png" :height="400px" width="400px">
 </p>
 
-## 🏆 Leaderboard
-
-🎯 The [Leaderboard]() for MMStar is continuously being updated, welcoming the contribution of your LVLMs!
-
 ## 🤖 Evaluation
 
 You can evaluate any LLMs and LVLMs on our MMStar following with the [evaluation guidelines](https://github.com/MMStar-Benchmark/MMStar/tree/main/eval).
+
+## 🏆 Leaderboard
+
+🎯 The [Leaderboard](https://mmstar-benchmark.github.io/#Leaderboard) for MMStar is continuously being updated, welcoming the contribution of your LVLMs!
+
+Please note that to thoroughly evaluate your own LVLM, you are required to provide us with three result files in xlsx format. These should include the results of your LVLM with visual input, the results of your LVLM without visual input, and the results of your original LLM base without visual input. We have provided a submission format in the `submits` folder. After completing the aforementioned steps, please contact us via chlin@mail.ustc.edu.cn to submit your results and to update the leaderboard.
 
 ## 📧 Contact
 
