@@ -37,7 +37,7 @@ multi-modal gain and multi-modal leakage.
 
 We take evaluating LLaVA-Next-34B as an example.
 
-(1) You can evaluate LLaVA-Next with accessing images and obtain $S_v$ as follows:
+(1) You can evaluate LLaVA-Next with accessing images and obtain $S_v=52.1$ as follows:
 
 ```bash
 bash scripts/run.sh
@@ -51,7 +51,7 @@ torchrun --nproc-per-node=$NUM_GPUS --master_port ${MASTER_PORT} run.py \
     --gen-mode mm
 ```
 
-(2) Then, you should set `--gen-mode` to `to` for switch to the text-only mode for evaluating LVLMs without accessing images and obtain $S_{wv}$.
+(2) Then, you should set `--gen-mode` to `to` for switch to the text-only mode for evaluating LVLMs without accessing images and obtain $S_{wv}=22.7$.
 
 ```bash
 torchrun --nproc-per-node=$NUM_GPUS --master_port ${MASTER_PORT} run.py \
@@ -62,7 +62,7 @@ torchrun --nproc-per-node=$NUM_GPUS --master_port ${MASTER_PORT} run.py \
     --gen-mode to
 ```
 
-(3) You can directly change the `--model` argument to `Nous_Yi_34B` for evaluating the performance of LLaVA-Next's LLM base and obtain $S_t$.
+(3) You can directly change the `--model` argument to `Nous_Yi_34B` for evaluating the performance of LLaVA-Next's LLM base and obtain $S_t=20.3$.
 
 ```bash
 torchrun --nproc-per-node=$NUM_GPUS --master_port ${MASTER_PORT} run.py \
@@ -73,6 +73,6 @@ torchrun --nproc-per-node=$NUM_GPUS --master_port ${MASTER_PORT} run.py \
     --gen-mode mm
 ```
 
-Finally, you can find outputs and detailed results in the `eval/outputs` directory. Moreover, you can utilize equations $MG=S_v-S_{wv}$ and $ML=max(0,S_{wv}-S_t)$.
+Finally, you can find outputs and detailed results in the `eval/outputs` directory. Moreover, you can utilize equations $MG=S_v-S_{wv}=29.4$ and $ML=max(0,S_{wv}-S_t)=2.4$.
 
 We warmly invite you to submit the results of your LVLMs to our leaderboard. Please note that to thoroughly evaluate your own LVLM, you are required to provide us with three result files in xlsx format. These should include the results of your LVLM with visual input, the results of your LVLM without visual input, and the results of your original LLM base without visual input. We have provided a submission format in the `submits` folder. After completing the aforementioned steps, please contact us via chlin@mail.ustc.edu.cn to submit your results and to update the leaderboard.
