@@ -12,6 +12,8 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 
 ## 📜 News
 
+**[2024.4.16]** 🚀 MMStar has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository and [OpenCompass](https://rank.opencompass.org.cn/leaderboard-multimodal) leaderboard.
+
 **[2024.4.2]** 🚀 [Huggingface Dataset](https://huggingface.co/datasets/Lin-Chen/MMStar) and [evaluation code](https://github.com/MMStar-Benchmark/MMStar/tree/main/eval) are available!
 
 **[2024.4.1]** 🚀 We released the [ArXiv paper](https://arxiv.org/pdf/2403.20330.pdf).
