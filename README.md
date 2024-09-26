@@ -11,6 +11,7 @@ This repo contains the official evaluation code and dataset for the paper "[Are 
 - 🔥 **Two Metrics**: Multi-modal Gain (MG) and Multi-modal Leakage (ML)
 
 ## 📜 News
+**[2024.9.26]** 🚀 MMStar was accepted by NeurIPS 2024!
 
 **[2024.4.16]** 🚀 MMStar has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository and [OpenCompass](https://rank.opencompass.org.cn/leaderboard-multimodal) leaderboard.
 
